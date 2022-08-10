@@ -131,4 +131,4 @@ class StoreView(APIView):
                 return Response({"status":False,  "message":serializer.errors}, status=status.HTTP_400_BAD_REQUEST)
         else:
              return Response({"status":False,  "message":"customer cann't add store"}, status=status.HTTP_400_BAD_REQUEST)    
-# student end #                 
+               
